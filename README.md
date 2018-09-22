@@ -12,3 +12,7 @@ s = s.decode('unicode_escape')
 ```
 ### 图片显著性区域检测
 * [Saliency](https://github.com/yhenon/pyimgsaliency)
+
+## 图片批处理
+一次读取多张图片且同时能够进行其他诸如resize等图像处理。
+[skimage](https://www.cnblogs.com/denny402/p/5123772.html)
