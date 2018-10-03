@@ -16,3 +16,9 @@ s = s.decode('unicode_escape')
 ### 图片批处理
 一次读取多张图片且同时能够进行其他诸如resize的图像操作。
 [skimage](https://www.cnblogs.com/denny402/p/5123772.html)
+
+### UserWarning: Possibly corrupt EXIF data.  Expecting to read 4718592 bytes but only got 0. Skipping tag 0
+```
+import piexif
+piexif.remove(img_path)  ##Just for JPEG file 
+```
