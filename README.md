@@ -9,6 +9,8 @@
 ```
 s = r'\u4eba\u751f\u82e6\u77ed\uff0cpy\u662f\u5cb8'
 s = s.decode('unicode_escape')
+# or 
+     .decode('utf-8')
 ```
 ### 图片显著性区域检测
 * [Saliency](https://github.com/yhenon/pyimgsaliency)
